@@ -1,0 +1,28 @@
+* {
+  font-family:  'Trebuchet MS','Helvetica', 'Hiragino Kaku Gothic Pro', Meiryo;
+  line-height: 172%;
+  text-decoration: none;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+code, pre {
+  display: block;
+  font-family: "Source Code Pro", "Liberation Mono", Consolas, Courier, monospace, sans-serif;
+  border: solid 1px #777;
+  border-radius: 3px;
+}
+code {
+  display: inline;
+  margin: 0 .25em;
+  padding: .125em .3em;
+  white-space: pre;
+}
+pre {
+  background-color: #333;
+  color: #FFF;
+  padding: .5em;
+  margin: 1.5em;
+  code {
+    border: none;
+  }
+}

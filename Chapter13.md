@@ -1,0 +1,49 @@
+---
+title: "For a Few Monads More"
+layout: article
+---
+
+
+
+## For a Few Monads More
+
+WIP
+
+
+
+## Writer? I hardly know her!
+
+WIP
+
+
+
+## Reader? Ugh, not this joke again.
+
+WIP
+
+
+
+## Tasteful stateful computations
+
+WIP
+
+
+
+## Error error on the wall
+
+WIP
+
+
+
+## Some useful monadic functions
+
+WIP
+
+
+
+## Making monads
+
+WIP
+
+
+
