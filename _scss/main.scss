@@ -5,10 +5,13 @@
   word-break: break-all;
   word-wrap: break-word;
 }
+p {
+  text-indent: 1.25em;
+  font-size: 14pt;
+}
 code, pre {
-  display: block;
   font-family: "Source Code Pro", "Liberation Mono", Consolas, Courier, monospace, sans-serif;
-  border: solid 1px #777;
+  border: solid 2px #777;
   border-radius: 3px;
 }
 code {
@@ -21,8 +24,10 @@ pre {
   background-color: #333;
   color: #FFF;
   padding: .5em;
+  white-space: normal;
   margin: 1.5em;
   code {
+    display: block;
     border: none;
   }
 }
