@@ -5,9 +5,11 @@
   word-break: break-all;
   word-wrap: break-word;
 }
+body {
+  padding: 2% 8%;
+}
 p {
   text-indent: 1.25em;
-  font-size: 14pt;
 }
 code, pre {
   font-family: "Source Code Pro", "Liberation Mono", Consolas, Courier, monospace, sans-serif;
