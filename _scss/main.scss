@@ -5,15 +5,40 @@
   word-break: break-all;
   word-wrap: break-word;
 }
+h1, h2, h3, h4, h5{
+  font-family: georgia, Arial, serif;
+  font-weight: normal;
+  transform: scaleY(1.2);
+  word-break: normal;
+  word-wrap: normal;
+}
+h1 {
+  font-size: 26pt;
+  line-height: 128%;
+}
+h2 {
+  padding-top: 1em;
+}
+footer {
+  color: #555;
+  display: block;
+  margin: 2em 0;
+  div {
+    display: block;
+    padding: 0 18%;
+    border-top: dotted 2px #AAA;
+    text-align: center;
+  }
+}
 body {
-  padding: 2% 8%;
+  padding: 4% 8%;
 }
 p {
   text-indent: 1.25em;
 }
 code, pre {
   font-family: "Source Code Pro", "Liberation Mono", Consolas, Courier, monospace, sans-serif;
-  border: solid 2px #777;
+  border: solid 1px #777;
   border-radius: 3px;
 }
 code {
