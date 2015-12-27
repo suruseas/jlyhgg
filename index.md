@@ -2,7 +2,9 @@
 layout: article
 ---
 
-# Learn You a Haskell for Grat Good 日本語訳
+
+
+# Learn You a Haskell for Great Good 日本語版
 
 最高におもしろい、Haskellの学び方!
 
@@ -10,6 +12,8 @@ layout: article
 
 ## Description
 
+
+Miran Lipovača著の
 [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters)
 の日本語版です。
 長いので、略してLYHGGと呼ぶことにします。
@@ -137,7 +141,7 @@ LYHGGは2012年に日本語へ翻訳されており
 [GitHub](https://github.com/)
 のアカウント(無料)を作成していただき、
 [github.com/moutend/jlyhgg/issues](https://github.com/moutend/jlyhgg/issues/)
-のNew Issueから、どこを修正すべきか報告してください。
+のNew Issueから、どこを修正すべきか報告することができます。
 
 
 
