@@ -4,7 +4,7 @@ layout: article
 
 
 
-# Learn You a Haskell for Great Good 日本語版
+# Learn You a Haskell for Great Good! 日本語版
 
 最高におもしろい、Haskellの学び方!
 
@@ -160,7 +160,7 @@ PR経由で直接この記事を修正することができます。
 
     git checkout -b fix-typo
 
-3 。`Chapter01.md`から`Chapter14.md`の内、該当するものを修正します。
+3 `chapter`ディレクトリにある`01.md`から`14.md`の内、該当するものを修正します。
 
     # 修正が終わったらコミットする
     git commit -c "Fix typo: てにをはの修正"
