@@ -28,7 +28,7 @@ LYHGG日本語版は、私
 
 1. [Introduction- はじめに]({{ site.url }}chapter/01/)
   * About this tutorial - このチュートリアルについて
-  * So what's Haskell? - で、Haskellって何?
+  * So what's Haskell? - で、Haskellって何なのさ?
   * What you need to dive in - 冒険に必要なもの
 1. [Starting Out - さぁ、はじめよう]({{ site.url }}chapter/02/)
     * Ready, set, go! - 位置について、よーい、ドン!
