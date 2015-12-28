@@ -17,11 +17,9 @@ h1, h2, h3, h4, h5{
   word-wrap: normal;
 }
 h1 {
-  font-size: 26pt;
+  font-size: 36pt;
   line-height: 128%;
-}
-h2 {
-  padding-top: 1em;
+  padding: 0;
 }
 footer {
   color: #555;
@@ -29,7 +27,7 @@ footer {
   margin: 2em 0;
   div {
     display: block;
-    padding: 0 18%;
+    padding: 0 16%;
     border-top: dotted 2px #AAA;
     text-align: center;
   }
