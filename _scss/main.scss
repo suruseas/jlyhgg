@@ -5,25 +5,56 @@
   word-break: break-all;
   word-wrap: break-word;
 }
-img {
-  float: left;
-  padding: 1.5em;
+body {
+  padding: 0;
+  margin: 0;
 }
-h1, h2, h3, h4, h5{
-  font-family: georgia, Arial, serif;
-  font-weight: normal;
-  transform: scaleY(1.2);
+section {
+  padding: 0 8%;
   word-break: normal;
   word-wrap: normal;
-}
-h1 {
-  font-size: 36pt;
-  line-height: 128%;
-  padding: 0;
+  img {
+    float: left;
+  }
+  h1, h2, h3, h4, h5{
+    font-family: georgia, Arial, serif;
+    font-weight: normal;
+    transform: scaleY(1.2);
+  }
+  h1 {
+    font-size: 36pt;
+    line-height: 128%;
+    padding: 0;
+  }
+  p {
+    text-indent: 1.25em;
+  }
+  code, pre {
+    font-family: "Source Code Pro", "Liberation Mono", Consolas, Courier, monospace, sans-serif;
+    border: solid 1px #777;
+    border-radius: 3px;
+  }
+  code {
+    display: inline;
+    margin: 0 .25em;
+    padding: .125em .3em;
+    white-space: pre;
+  }
+  pre {
+    background-color: #333;
+    color: #FFF;
+    padding: .5em;
+    white-space: normal;
+    margin: 1.5em;
+    code {
+      display: block;
+      border: none;
+    }
+  }
 }
 footer {
-  color: #555;
   display: block;
+  color: #333;
   margin: 2em 0;
   div {
     display: block;
@@ -32,31 +63,8 @@ footer {
     text-align: center;
   }
 }
-body {
-  padding: 4% 8%;
-}
-p {
-  text-indent: 1.25em;
-}
-code, pre {
-  font-family: "Source Code Pro", "Liberation Mono", Consolas, Courier, monospace, sans-serif;
-  border: solid 1px #777;
-  border-radius: 3px;
-}
-code {
-  display: inline;
-  margin: 0 .25em;
-  padding: .125em .3em;
-  white-space: pre;
-}
-pre {
-  background-color: #333;
-  color: #FFF;
-  padding: .5em;
-  white-space: normal;
-  margin: 1.5em;
-  code {
-    display: block;
-    border: none;
+@media screen and (max-aspect-ratio: 1/1), (max-width : 640px)  {
+  section {
+    padding: 0 4%;
   }
 }
