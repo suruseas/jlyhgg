@@ -4,9 +4,9 @@
 You're ready to learn Haskell but you are not good at English?
 Never mind!
 I'm working on translating the most funkiest way to learn Haskell written by Miran Lipovača into Japanese.
-Please visit at
+Please visit at:
 
-[https://moutend.github.io/jlyhgg/](https://moutend.github.io/jlyhgg/)
+* [https://moutend.github.io/jlyhgg/](https://moutend.github.io/jlyhgg/)
 
 
 
@@ -21,6 +21,8 @@ If you are looking for a reliable tutorial written in Japanese,
 I recommend you to read a official Japanese version of LYHGG called
 [すごいHaskellたのしく学ぼう！](https://estore.ohmsha.co.jp/titles/978427406885P)
 at first.
+Well, I think that thousand of sophisticated jokes are difficult part of translation.
+It's not joke, really.
 
 
 
@@ -29,8 +31,7 @@ at first.
 You can report the weird part of translation via Issues
 or directly fix it and send Pull Request.
 The markdown files that corresponding to each chapters are located in `chapters` directory.
-
-I appreciate your any contribution, any time.
+And I appreciate your any contribution, any time.
 
 
 
