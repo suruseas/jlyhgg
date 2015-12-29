@@ -1,5 +1,4 @@
 * {
-  font-family:  'Trebuchet MS','Helvetica', 'Hiragino Kaku Gothic Pro', Meiryo;
   line-height: 172%;
   text-decoration: none;
   word-break: break-all;
@@ -13,7 +12,15 @@ section {
   padding: 0 8%;
   word-break: normal;
   word-wrap: normal;
+  blockquote {
+    border-left:solid 1em #AAA;
+    padding: .125em 1em;
+    margin: 2em;
+  }
   img {
+    display: block;
+    margin-right: 2em;
+    margin-bottom: 2em;
     float: left;
   }
   h1, h2, h3, h4, h5{
@@ -27,6 +34,7 @@ section {
     padding: 0;
   }
   p {
+    font-family:  'Trebuchet MS','Helvetica', 'Hiragino Kaku Gothic Pro', Meiryo;
     text-indent: 1.25em;
   }
   code, pre {
