@@ -10,6 +10,21 @@ Please visit at:
 
 
 
+## Preview at local
+
+You can also preview this tutorial on your machine.
+(You need Ruby 2.1+ and bundler gem.)
+
+```shell
+git clone https://github.com/moutend/jlyhgg
+cd ./jlyhgg
+mkdir -p vendor/bundle
+bundle install --path vendor/bundle
+bundle exec jekyll server
+```
+
+
+
 ## Motivation
 
 To improve my English and learn Haskell.
