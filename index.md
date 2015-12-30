@@ -1,10 +1,9 @@
 ---
-layout: article
+title: "Learn You a Haskell for Great Good! 日本語版"
+layout: cover
 ---
 
 
-
-# Learn You a Haskell for Great Good! 日本語版
 
 最高におもしろい、Haskellの学び方!
 
@@ -21,6 +20,15 @@ LYHGG日本語版は、私
 [(@moutend)](https://github.com/moutend/)
 のHaskellと英語の勉強を兼ねて、個人的に翻訳しています。
 詳しくは、このページの最下部をご覧ください。
+
+
+## Prerequisites
+
+1. [Haskell環境の構築について]({{ site.url }}chapter/00/)
+  * Windows
+ * Mac OSX
+  * Linux
+  * System.Randomモジュールについて
 
 
 
