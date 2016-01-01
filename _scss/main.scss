@@ -4,72 +4,93 @@
   word-break: break-all;
   word-wrap: break-word;
 }
+
 body {
   padding: 0;
   margin: 0;
 }
+
 section {
   padding: 6% 8% 2%;
+
   blockquote {
     border-left:solid 1em #AAA;
-    padding: .125em 1em;
     margin: 2em;
+    padding: .125em 1em;
   }
+
   img {
     display: block;
-    margin-right: 2em;
     margin-bottom: 2em;
+  }
+
+  .img-left {
+    margin-right: 2em;
     float: left;
   }
+
+  .img-right {
+    margin-left: 2em;
+    float: right;
+  }
+
   h1, h2, h3, h4, h5{
     font-family: georgia, Arial, serif;
     font-weight: normal;
-    transform: scaleY(1.2);
+    transform: scaleX(0.85);
+    transform-origin: left top;
   }
+
   h1 {
     font-size: 35pt;
-    line-height: 128%;
-    margin: 0;
-    margin-bottom: 1.25em;
+    line-height: 144%;
+    margin: 0 0 1em;
     word-break: normal;
     word-wrap: normal;
   }
+
   p {
     font-family:  'Trebuchet MS','Helvetica', 'Hiragino Kaku Gothic Pro', Meiryo;
+    font-size: 12pt;
     text-indent: 1.25em;
   }
+
   code, pre {
     font-family: "Source Code Pro", "Liberation Mono", Consolas, Courier, monospace, sans-serif;
     border: solid 1px #777;
     border-radius: 3px;
   }
+
   code {
     display: inline;
     margin: 0 .25em;
     padding: .125em .3em;
     white-space: pre;
   }
+
   pre {
     background-color: #333;
     color: #FFF;
     padding: .5em;
     white-space: normal;
-    margin: 1.5em;
+    margin: 1.5em 0;
+
     code {
       display: block;
       border: none;
     }
   }
 }
+
 nav {
   p {
-    font-size: 14pt;
     text-indent: 0;
-    font-weight: bold;
-    margin: .25em;
+    margin: 0;
+
     a {
       display: block;
       padding: .5em 0;
+      color: #000;
     }
   }
 }
@@ -77,15 +98,28 @@ footer {
   display: block;
   color: #333;
   margin: 2em 0;
+
   div {
-    display: block;
     padding: 0 16%;
     border-top: dotted 2px #AAA;
     text-align: center;
   }
 }
 @media screen and (max-aspect-ratio: 1/1), (max-width : 640px)  {
+  header {
+    display: none;
+  }
+
   section {
     padding: 4%;
+
+    img {
+      max-width: 100%;
+    }
+
+    .img-left, .img-right {
+      float: none;
+      margin: 2em auto;
+    }
   }
 }
