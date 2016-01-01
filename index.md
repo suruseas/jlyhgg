@@ -102,7 +102,7 @@ LYHGG日本語版は、私
   * Applicative functors - 適用可能なファンクタ
   * The newtype keyword - newtypeキーワード
   * Monoids - モノイド
-1. [A Fistful of Monads - 一掴みのモナド]({{ site.url }}chapter/12/)
+1. [A Fistful of Monads - ひと掴みのモナド]({{ site.url }}chapter/12/)
   * Getting our feet wet with Maybe - Maybeを思い出そう
   * The Monad type class - モナド型クラス
   * Walk the line - 綱渡り
