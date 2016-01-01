@@ -37,16 +37,22 @@ section {
   h1, h2, h3, h4, h5{
     font-family: georgia, Arial, serif;
     font-weight: normal;
-    transform: scaleX(0.85);
-    transform-origin: left top;
   }
 
   h1 {
     font-size: 35pt;
     line-height: 144%;
     margin: 0 0 1em;
+    transform: scaleX(0.9);
+    transform-origin: left top;
     word-break: normal;
     word-wrap: normal;
+  }
+
+  ol, ul {
+    text-indent: 0;
+    margin: 0;
+    padding-left: 1em;
   }
 
   p {
@@ -111,7 +117,16 @@ footer {
   }
 
   section {
-    padding: 4%;
+    padding: 4% 2%;
+
+    h1 {
+      font-size: 23pt;
+    }
+
+    h2, h3, h4, h5, h6 {
+      font-size: 14pt;
+      font-weight: bold;
+    }
 
     img {
       max-width: 100%;
