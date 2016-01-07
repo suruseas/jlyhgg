@@ -50,6 +50,24 @@ And I appreciate your any contribution, any time.
 
 
 
+## TODO
+
+* Clarify the meaning between:
+  * do, execute, run, perform, etc
+  * act, play, behave, etc
+  * feed, give
+* Make the rules for when we use Katakana or Kanji:
+  * To map is マップする.
+      * It's OK and it sounds like natural Japanese.
+  * To zip is ジップする.
+    * ジップする sounds like closing a plastic bag.
+  * Applicatives, Functors, Monoids, Monads, etc
+  * Concrete types
+  * They have no appropriate words responding to natural Japanese representations.
+  * Ofcource, using Katakana for these words is one of the solutions.
+
+
+
 ## LICENSE
 
 This version is licensed under the same terms of original (CC BY-SA 3.0).
