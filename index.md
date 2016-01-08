@@ -11,15 +11,15 @@ layout: cover
 
 ## Description
 
-
 Miran Lipovača著の
 [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters)
 の日本語版です。
 長いので、略してLYHGGと呼ぶことにします。
-LYHGG日本語版は、私
-[(@moutend)](https://github.com/moutend/)
-のHaskellと英語の勉強を兼ねて、個人的に翻訳しています。
+LYHGG日本語版は、
+私[(@moutend)](https://github.com/moutend/)
+のHaskellと英語の学習を兼ねて、個人的に翻訳しています。
 詳しくは、このページの最下部をご覧ください。
+
 
 
 ## Prerequisites
@@ -130,26 +130,31 @@ LYHGG日本語版は、私
 このチュートリアルを発掘した皆さんは御存知かと思いますが、
 LYHGGは2012年に日本語へ翻訳されており
 巷ではすごいH本として名を馳せている、
+田中英行・村主崇行(訳)の
 [すごいHaskellたのしく学ぼう](https://estore.ohmsha.co.jp/titles/978427406885P)
 という書籍がオーム社より販売されています。
-翻訳の質と内容の正確さを求める場合は、すごいH本の購入を強くお勧めします。
+翻訳の質と内容の正確さを求める場合は、すごいH本を必ず購入してください。
 
 
 
 ## Contributing
 
-### Via Issues
-
 誤字脱字、
 日本語として不自然な言い回し、
 表記の揺れ、
 つまらないジョーク
-などを指摘していただけると訳者の励みになります。
-このチュートリアルはGitHub Pagesでホストされているので、
+などを指摘、あるいは修正していただけると訳者の励みになります。
+どんなに些細な事でも構いません、泣いて喜びます。
+
+
+
+### Via Issues
+
+このチュートリアルはGitHub Pagesでホストされています。
 [GitHub](https://github.com/)
-のアカウント(無料)を作成していただき、
+のアカウント(無料)を作成していただくと、
 [github.com/moutend/jlyhgg/issues](https://github.com/moutend/jlyhgg/issues/)
-のNew Issueから、どこを修正すべきか報告することができます。
+のNew Issueから、どこを修正すべきか報告することができるようになります。
 
 
 
