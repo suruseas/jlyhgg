@@ -94,7 +94,7 @@ LYHGG日本語版は、
   * Randomness - ランダム性
   * Bytestrings - バイト文字列
   * Exceptions - 例外
-1. [Functionally Solving Problems - 関数的な問題の解決]({{ site.url }}chapter/10/)
+1. [Functionally Solving Problems - 関数的に問題を解決する]({{ site.url }}chapter/10/)
   * Reverse Polish notation calculator - 逆ポーランド記法電卓
   * Heathrow to London - ヒースローからロンドンへ　
 1. [Functors, Applicative Functors and Monoids - ファンクタと適用可能なファンクタ、そしてモノイド]({{ site.url }}chapter/11/)
