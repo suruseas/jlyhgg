@@ -1,5 +1,4 @@
 ---
-title: "Learn You a Haskell for Great Good! 日本語版"
 layout: cover
 ---
 
