@@ -15,8 +15,7 @@ HINTBOX = /<div class="hintbox">/
 ITALIC = /<i>([^<]*)<\/i>/
 IMG_POSITION = /"(left|center|right)"/
 IMG_SIZE = / width="\d*" height="\d*"/
-MISC = /\r|<p>|<\/p>|<\/div>/
-PRE = /<pre[^>]*>([^<]*)<\/pre>/
+MISC = /\r|<p [^>]*>|<\/p>|<\/div>/
 
 html_string = ARGF.read
 
@@ -24,7 +23,6 @@ html_string.gsub!(MISC, '')
 html_string.gsub!(/(<[^>]*)\n/, '\1')
 html_string.gsub!(HINTBOX, 'HINTBOX \1')
 html_string.gsub!(B, '\1')
-html_string.gsub!(PRE, "```\\1\n```")
 html_string.gsub!(ITALIC, '_\1_')
 html_string.gsub!(IMG_POSITION, '"img-\1"')
 html_string.gsub!(IMG_SIZE, '')
@@ -35,17 +33,22 @@ html_string.gsub!(H3, '### \1')
 html_string.gsub!(H4, '#### \1')
 html_string.gsub!(H1, '# \1')
 html_string.gsub!(CODE, '`\1`')
-html_string.gsub!(/([^,], |[^!]! |[^\?]\? |[^\.]\. )/, "\\1\n")
+html_string.gsub!(/([^!]! |[^\?]\? |[^\.]\. )/, "\\1\n")
 html_string.gsub!(/ *$/, '')
 html_string.gsub!(/&gt;/, '>')
 html_string.gsub!(/&amp;/, '&')
-html_string.gsub!(/<pre[^>]*>|<\/pre>/, '```')
+
+PRE = /<pre[^>]*>|<\/pre>/
+html_string.gsub!(PRE, "```\n")
+
+# puts html_string
 
 indent = false
 html_string.each_line do |line|
   if indent
     puts "    #{line}"
   else
+    line.gsub!(/([^,], )/, "\\1\n")
     puts line
   end
 
