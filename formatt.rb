@@ -38,7 +38,7 @@ html_string.gsub!(/ *$/, '')
 html_string.gsub!(/&gt;/, '>')
 html_string.gsub!(/&amp;/, '&')
 
-html_string.gsub!(/`/, "\\`")
+html_string.gsub!(/`/, '\\\`')
 
 PRE = /<pre[^>]*>|<\/pre>/
 html_string.gsub!(PRE, "```\n")
@@ -48,8 +48,7 @@ html_string.each_line do |line|
   if indent
     puts "    #{line}"
   else
-    line.gsub!(/([^,], )/, "\\1\n")
-    puts line
+    puts line.gsub(/([^,], )/, "\\1\n")
   end
 
   if line.match(/```/)
