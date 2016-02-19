@@ -13,6 +13,8 @@ H3 = /<h3>([^<]*)<\/h3>/
 H4 = /<h4>([^<]*)<\/h4>/
 HINTBOX = /<div class="hintbox">/
 ITALIC = /<i>([^<]*)<\/i>/
+IMG_POSITION = /"(left|center|right)"/
+IMG_SIZE = / width="\d*" height="\d*"/
 MISC = /\r|<p>|<\/p>|<\/div>/
 PRE = /<pre[^>]*>([^<]*)<\/pre>/
 
@@ -24,6 +26,8 @@ html_string.gsub!(HINTBOX, 'HINTBOX \1')
 html_string.gsub!(B, '\1')
 html_string.gsub!(PRE, '```\1```')
 html_string.gsub!(ITALIC, '_\1_')
+html_string.gsub!(IMG_POSITION, '"img-\1"')
+html_string.gsub!(IMG_SIZE, '')
 html_string.gsub!(EM, '**\1**')
 html_string.gsub!(H1, '# \1')
 html_string.gsub!(H2, '## \1')
