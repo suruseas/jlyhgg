@@ -15,7 +15,7 @@ HINTBOX = /<div class="hintbox">/
 ITALIC = /<i>([^<]*)<\/i>/
 IMG_POSITION = /"(left|center|right)"/
 IMG_SIZE = / width="\d*" height="\d*"/
-MISC = /\r|<p [^>]*>|<\/p>|<\/div>/
+MISC = /\r|<p>|<p [^>]*>|<\/p>|<\/div>/
 
 html_string = ARGF.read
 
@@ -38,10 +38,10 @@ html_string.gsub!(/ *$/, '')
 html_string.gsub!(/&gt;/, '>')
 html_string.gsub!(/&amp;/, '&')
 
+html_string.gsub!(/`/, "\\`")
+
 PRE = /<pre[^>]*>|<\/pre>/
 html_string.gsub!(PRE, "```\n")
-
-# puts html_string
 
 indent = false
 html_string.each_line do |line|
