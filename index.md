@@ -47,7 +47,7 @@ LYHGG日本語版は、
     1. [Guards, guards! - ガードで防げ!]({{ site.url }}/chapter/04/#4.2)
     1. [Where!? - whereはどこに!?]({{ site.url }}/chapter/04/#4.3)
     1. [Let it be - letにしよう]({{ site.url }}/chapter/04/#4.4)
-    1. Case expressions - case式]({{ site.url }}/chapter/04/#4.4)
+    1. [Case expressions - case式]({{ site.url }}/chapter/04/#4.5)
 1. [Recursion - 再帰]({{ site.url }}/chapter/05/)
     1. [Hello recursion! - 素敵な催奇]({{ site.url }}/chapter/05/#5.1)
     1. [Maximum awesome - 良さは最高]({{ site.url }}/chapter/05/#5.2)
