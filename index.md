@@ -4,17 +4,19 @@ layout: cover
 
 このチュートリアルは、Miran Lipovača著の
 [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters)
-を日本語に翻訳したものです。
-長いので、略してLYHGGと呼ぶことにします。
-LYHGG日本語版は、
-私[(@moutend)](//github.com/moutend/)
-のHaskellと英語の学習を兼ねて、翻訳しています。
-そのため、翻訳の質と内容の正確さは一切保証しません。
-また、このチュートリアルを読んだことにより被ったいかなる不利益も保証しません。
-詳しくは、[Motivation](#motivation)を御覧ください。
+を私
+[(@moutend)](//github.com/moutend/)
+がHaskellと英語の勉強を兼ねて日本語に翻訳したものです。
+そのため、**翻訳の質と内容の正確さは一切保証しません。**
+また、**このチュートリアルを読んだことにより被ったいかなる不利益も保証しません。**
 
+翻訳の質と内容の正確さを求める場合は、正式な日本語版の書籍を購入されることをおすすめします。
+このチュートリアルを発掘した皆さんはすでに御存知かと思いますが、
+田中英行・村主崇行(訳)の
+[すごいHaskellたのしく学ぼう](https://estore.ohmsha.co.jp/titles/978427406885P)
+という書籍がオーム社より販売されています。
 
-## Prerequisites
+## Before starting out - はじめる前に
 
 1. [環境構築について]({{ site.url }}/chapter/00/)
     1. [Haskell tool stackのインストール]({{ site.url }}/chapter/00#0.1)
@@ -23,9 +25,7 @@ LYHGG日本語版は、
     1. [Haskell tool stackのセットアップ]({{ site.url }}/chapter/00/#0.2)
     1. [(補足) System.Randomモジュールについて]({{ site.url }}/chapter/00/#0.3)
 
-
-
-## Index
+## Index - 目次
 
 1. [Introduction- はじめに]({{ site.url }}/chapter/01/)
     1. [About this tutorial - このチュートリアルについて]({{ site.url }}/chapter/01/#1.1)
@@ -116,22 +116,6 @@ LYHGG日本語版は、
     1. [A very simple file system - 超単純なファイルシステム]({{ site.url }}/chapter/14/#14.4)
     1. [Watch your step - あなたの足跡]({{ site.url }}/chapter/14/#14.5)
 
-
-
-## <a name="Motivation">Motivation</a>
-
-このチュートリアルを発掘した皆さんは御存知かと思いますが、
-LYHGGは2012年に日本語へ翻訳されており
-巷ではすごいH本として名を馳せている、
-田中英行・村主崇行(訳)の
-[すごいHaskellたのしく学ぼう](https://estore.ohmsha.co.jp/titles/978427406885P)
-という書籍がオーム社より販売されています。
-このチュートリアルは、冒頭でも説明したとおり、
-私のHaskellと英語の勉強を兼ねて、個人的に翻訳しています。
-翻訳の質と内容の正確さを求める場合は、すごいH本を必ず購入してください。
-
-
-
 ## Contributing
 
 文法の解釈の誤り、
@@ -142,8 +126,6 @@ LYHGGは2012年に日本語へ翻訳されており
 などを指摘していただけると、役者の励みになります。
 以下、どのように指摘するのかについて説明します。
 
-
-
 ### Issues
 
 このチュートリアルはGitHub Pagesでホストされています。
@@ -152,7 +134,6 @@ LYHGGは2012年に日本語へ翻訳されており
 [github.com/moutend/jlyhgg/issues](https://github.com/moutend/jlyhgg/issues/)
 から新しいIssueを開くことができます。
 そのIssueに、指摘したい箇所を書いて下さい。
-
 
 
 ### Pull Requests
@@ -182,6 +163,6 @@ PR経由で直接この記事を修正することができます。
 
 
 
-## LICENSE
+## LICENSE {#link_test}
 
 LYHGGは、CC BY-SA 3.0で公開されています。日本語版もコレに従い同じライセンスの下で公開しています。
